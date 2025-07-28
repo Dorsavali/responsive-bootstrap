@@ -1,0 +1,21 @@
+@mixin media($width) {
+  @if $width==0 {
+    @for $i from 1 through 12 {
+      .col-mb-#{$i} {
+        width: 8.3333% * $i;
+      }
+    }
+  } @else if $width==576 {
+    @for $i from 1 through 12 {
+      .col-tb-#{$i} {
+        width: 8.3333% * $i;
+      }
+    }
+  } @else if $width==1000 {
+    @for $i from 1 through 12 {
+      .col-de-#{$i} {
+        width: 8.3333% * $i;
+      }
+    }
+  }
+}

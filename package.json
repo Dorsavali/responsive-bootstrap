@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sass": "npx sass --watch ./src/scss/main.scss:./src/css/main.css"
+    "sass": "npx sass --watch ./src/scss/main.scss:./src/css/main.css",
+    "mobile": "npx sass --watch ./src/scss/mobile/mobile.scss:./src/css/mobile/mobile.css",
+    "tablet": "npx sass --watch ./src/scss/tablet/tablet.scss:./src/css/tablet/tablet.css",
+    "desktop": "npx sass --watch ./src/scss/desktop/desktop.scss:./src/css/desktop/desktop.css"
+
   },
   "devDependencies": {
     "sass": "^1.89.2",
