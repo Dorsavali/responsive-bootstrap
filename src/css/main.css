@@ -1,6 +1,6 @@
-@import "../css/mobile/mobile.css";
-@import "../css/tablet/tablet.css";
-@import "../css/desktop/desktop.css";
+@import url("../css/mobile/mobile.css") only screen and (min-width:0px) ;
+@import url("../css/tablet/tablet.css")  only screen and (min-width:576px);
+@import url("../css/desktop/desktop.css") only screen and (min-width:1000px) ;
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +8,6 @@
 
 #app {
   width: 100%;
-  display: flex;
-  flex-flow: row wrap;
 }
 
 /*# sourceMappingURL=main.css.map */
